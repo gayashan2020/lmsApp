@@ -1,0 +1,32 @@
+{
+  "name": "mern-stack",
+  "version": "1.0.0",
+  "description": "RESTful CRUD API with express and react",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm install && cd client && npm install && npm run build && cd .. && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritza-co/mern-stack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritza-co/mern-stack/issues"
+  },
+  "homepage": "https://github.com/ritza-co/mern-stack#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^4.1.1",
+    "mongoose": "^5.13.7",
+    "axios": "^0.21.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  }
+}
